@@ -7,10 +7,10 @@
             </div>
 
             <div class="box">
-            <a href="url"><button class="button">Nazad</button></a>
-
+            <router-link to="/about"><button class="button">Nazad</button></router-link>
             </div>
             <div class="box">
+                <p>Vozač</p>
             </div>
            
 
