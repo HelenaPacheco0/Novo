@@ -1,35 +1,28 @@
 <template>
   <div id="app">
-    <div id="nav">
-      
-    </div>
-    <router-view/>
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-/*import Lista from './components/Lista.vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    Lista
+    HelloWorld
   }
-}*/
+}
 </script>
 
 <style>
 #app {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
-  margin: 0 auto;
+  margin-top: 60px;
   
 }
-
-a {text-decoration: none;}
-
-
 </style>

@@ -9,8 +9,11 @@
             <div class="box">
             <router-link to="/about"><button class="button">Nazad</button></router-link>
             </div>
-            <div class="box">
+            <div class="box2">
                 <p>Vozač</p>
+                <form>
+                    
+                </form>
             </div>
            
 
@@ -42,14 +45,21 @@ export default{}
     color: #1b71da;
 }
 
-.box{
+.box, .box2{
     background-color: #509bf5;
     padding: 40px;
     font-size: 50px;
     border-radius: 4px;
     margin: 10px;
+    color: white;
 }
 
 a {text-decoration: none;}
+.is-primary {background-color: white;}
+
+.box2 {
+    font-size: 15pt;
+    text-align: left;
+}
 
 </style>

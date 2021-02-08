@@ -3,15 +3,17 @@
         <div class="notification is-primary">
 
             <div class="box">
-                PoveziME
+                <router-link to="/home">PoveziME</router-link>
             </div>
-
+            
             <div class="box">
-            <router-link to="/about"><button class="button">Nazad</button></router-link>
+            <router-link to="/vozac"><button class="button">VOZAČ</button></router-link>
+            <router-link to="/putnik"><button class="button">PUTNIK</button></router-link>
+            <router-link to="/paket"><button class="button">PAKET</button></router-link>
+            <router-link to="/login"><button class="button">LOG IN</button></router-link>
+            <router-link to="/singin"><button class="button">SIGN IN</button></router-link>
             </div>
-            <div class="box">
-                <p>Paket</p>
-            </div>
+            
            
 
         </div>
@@ -52,7 +54,9 @@ export default{}
 }
 
 a {text-decoration: none;}
-.is-primary {background-color: white;}
-router-link {text-decroation: none;}
+
+.is-primary{
+    background-color: white;
+}
 
 </style>
