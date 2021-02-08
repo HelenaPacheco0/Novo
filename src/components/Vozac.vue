@@ -7,11 +7,8 @@
             </div>
 
             <div class="box">
-            <a href="url"><button class="button">VOZAČ</button></a>
-            <a href="url"><button class="button">PUTNIK</button></a>
-            <a href="url"><button class="button">PAKET</button></a>
-            <a href="url"><button class="button">LOG IN</button></a>
-            <a href="url"><button class="button">SIGN IN</button></a>
+            <a href="url"><button class="button">Nazad</button></a>
+
             </div>
            
 
