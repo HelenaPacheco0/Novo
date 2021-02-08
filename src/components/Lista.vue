@@ -31,18 +31,22 @@ export default{}
     color: white;
     margin: 10px;
     padding: 25px;
-    background-color: #2E7D32;
+    background-color: #1b71da; 
     border-radius: 15px 0px;
     width: 10%;
-    
+}
+
+.button:hover {
+    background-color:#ffffff;
+    color: #1b71da;
 }
 
 .box{
-    background-color: #1B5E20;
+    background-color: #509bf5;
     padding: 40px;
     font-size: 50px;
     border-radius: 4px;
-    margin-top: 10px;
+    margin: 10px;
 }
 
 
