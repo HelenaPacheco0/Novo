@@ -2,32 +2,17 @@
     <div class="container is-max-desktop">
         <div class="notification is-primary">
 
-            <section class="hero is-success">
-                <div class="hero-body">
-                 <p class="title">
-                     Lorem Ipsum
-                </p>
-                <p class="subtitle">
-                    Lorem ipsum
-                </p>
-             </div>
-            </section>
+            <div class="box">
+                PoveziMe
+            </div>
+            <div class="box">
+            <button class="button">VOZAČ</button>
+            <button class="button">PUTNIK</button>
+            <button class="button">PAKET</button>
+            <button class="button">LOG IN</button>
+            <button class="button">SIGN IN</button>
+            </div>
 
-             <div class="block">
-               1
-            </div>
-            <div class="block">
-                2
-            </div>
-            <div class="block">
-                3
-            </div>
-            <div class="block">
-               4
-            </div>
-            <div class="block">
-              5
-            </div>
         </div>
     </div>
 </template>
@@ -38,23 +23,26 @@ export default{}
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.block {
-    font-familly: Roboto, sans-serif;
-    border: 1px solid #16161d;
-    margin: 20px;
-    padding: 20px;
-}
 
-.is-success {
-    background-color: #3A8F82;
+.button {
+    all: unset;
+    font-familly: Roboto, sans-serif;
+    font-size: 15pt;
     color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 10px;
+    padding: 25px;
+    background-color: #2E7D32;
+    border-radius: 15px 0px;
+    width: 10%;
     
 }
-.title{
-    font-size: 30pt;
-    margin-bottom: 5px;
+
+.box{
+    background-color: #1B5E20;
+    padding: 40px;
+    font-size: 50px;
+    border-radius: 4px;
+    margin-top: 10px;
 }
 
 
