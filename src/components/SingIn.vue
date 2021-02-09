@@ -3,12 +3,15 @@
         <div class="notification is-primary">
 
             <div class="box">
-                PoveziME
+                <h1>PoveziME</h1>
+
+            <router-link to="/vozac"><button class="button">VOZAČ</button></router-link>
+            <router-link to="/putnik"><button class="button">PUTNIK</button></router-link>
+            <router-link to="/paket"><button class="button">PAKET</button></router-link>
+            <router-link to="/login"><button class="button">LOG IN</button></router-link>
+            <router-link to="/about"><button class="button">HOME</button></router-link>
             </div>
 
-            <div class="box">
-            <router-link to="/about"><button class="button">Nazad</button></router-link>
-            </div>
             <div class="box2">
                 
             <form>
@@ -67,10 +70,10 @@
 .button {
     all: unset;
     font-familly: Roboto, sans-serif;
-    font-size: 15pt;
+    font-size: 8pt;
     color: white;
     margin: 10px;
-    padding: 25px;
+    padding: 10px;
     background-color: #1b71da; 
     border-radius: 15px 0px;
     width: 10%;
