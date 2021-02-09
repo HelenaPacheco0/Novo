@@ -11,12 +11,12 @@
             <router-link to="/singin"><button class="button">SIGN IN</button></router-link>
             </div>
             <div class="box">
-                <p> Da li trebaš prijevoz? <br> 
-                    Da li trebaš suputnika?<br>
-                    Ili imaš mjesto za paket?
+                <p> Dođi točno tamo gdje želiš. Bez gnjavaže, bez redova i bez čekanja.<br>
+                    Povezi nekoga sa sobom, ili povezi se sa nekim do željene destinacije! <br>
+                    Pošalji ili preuzmi paket!
                  </p>
             </div>
-            
+            <br><br><br><br><br><br><br><br><br><br><br>
     </div>
 </template>
 

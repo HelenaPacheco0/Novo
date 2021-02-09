@@ -15,7 +15,7 @@
                 <h4>Putnik</h4>
                 <b-table :data="data" :columns="columns"></b-table>
             </div>
-
+        <br><br><br><br><br><br>
     </div>
 </template>
 
