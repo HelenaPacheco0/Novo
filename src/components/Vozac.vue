@@ -1,6 +1,6 @@
 <template>
     <div class="container is-max-desktop">
-        <div class="notification is-primary">
+        
 
             <div class="box">
                 <h1>PoveziME</h1>
@@ -12,12 +12,12 @@
             <router-link to="/singin"><button class="button">SIGN IN</button></router-link>
             </div>
             <div class="box2">
-                <p>Vozač</p>
+                <h4>Vozač</h4>
                 <b-table :data="data" :columns="columns"></b-table>
             </div>
-           
 
-        </div>
+
+            <br><br><br><br><br><br>
     </div>
 </template>
 
@@ -80,18 +80,18 @@
     color: white;
     margin: 10px;
     padding: 10px;
-    background-color: #1b71da; 
+    background-color: rgb(122, 113, 11, 0.7);
     border-radius: 15px 0px;
     width: 10%;
 }
 
 .button:hover {
     background-color:#ffffff;
-    color: #1b71da;
+    color: rgb(122, 113, 11, 0.7);
 }
 
 .box, .box2{
-    background-color: #509bf5;
+    background-color: rgba(24, 22, 22, 0.4);
     padding: 40px;
     font-size: 50px;
     border-radius: 4px;
@@ -100,7 +100,6 @@
 }
 
 a {text-decoration: none;}
-.is-primary {background-color: white;}
 
 .box2 {
     font-size: 15pt;
@@ -109,7 +108,11 @@ a {text-decoration: none;}
 
 .b-table {
     font-size: 10pt;
-    
+}
+
+h4 {
+    padding-bottom: 15px;
+    font-size: 20pt;
 }
 
 </style>

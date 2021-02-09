@@ -1,6 +1,5 @@
 <template>
     <div class="container is-max-desktop">
-        <div class="notification is-primary">
 
             <div class="box">
                 <h1>PoveziME</h1>
@@ -33,9 +32,7 @@
 
                 </form>
             </div>
-           
 
-        </div>
     </div>
 </template>
 
@@ -53,18 +50,18 @@ export default{}
     color: white;
     margin: 10px;
     padding: 10px;
-    background-color: #1b71da; 
+    background-color: rgb(122, 113, 11, 0.7);
     border-radius: 15px 0px;
     width: 10%;
 }
 
 .button:hover {
     background-color:#ffffff;
-    color: #1b71da;
+    color: rgb(122, 113, 11, 0.7);
 }
 
 .box, .box2{
-    background-color: #509bf5;
+    background-color: rgba(24, 22, 22, 0.4);
     padding: 40px;
     font-size: 50px;
     border-radius: 4px;

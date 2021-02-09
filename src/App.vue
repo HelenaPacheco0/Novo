@@ -8,6 +8,7 @@
 </template>
 
 <script>
+
 /*import Lista from './components/Lista.vue'
 
 export default {
@@ -24,12 +25,15 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: white;
   margin: 0 auto;
+  padding: 5px;
+  background-image: url("https://w.wallhaven.cc/full/42/wallhaven-423zeg.jpg");
   
 }
 
 a {text-decoration: none;}
+
+
 
 
 </style>

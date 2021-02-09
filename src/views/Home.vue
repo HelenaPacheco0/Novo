@@ -1,13 +1,11 @@
 <template>
     <div class="container is-max-desktop">
-        <div class="notification is-primary">
 
             <div class="box">
                 <router-link to="/about">PoveziME</router-link>
                 
             </div>
-           
-        </div>
+
     </div>
 </template>
 
@@ -44,7 +42,6 @@ export default{}
 }
 
 a {text-decoration: none;}
-.is-primary {background-color: white;}
 router-link {text-decroation: none;}
 
 </style>
